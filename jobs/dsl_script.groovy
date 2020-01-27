@@ -2,7 +2,7 @@ println(args[0])
 
 String job=args[0].toString()
 
-println(job)
+println("${job}")
 
 
 pipelineJob(job) {
