@@ -1,5 +1,7 @@
 println(args[0])
-pipelineJob(args[0]) {
+
+String job=args[0].toString
+pipelineJob(job) {
 
 
 definition{
