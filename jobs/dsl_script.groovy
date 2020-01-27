@@ -5,7 +5,7 @@ String job=args[0].toString()
 println("${job}")
 
 
-pipelineJob(job) {
+pipelineJob("${job}") {
 
 
 definition{
